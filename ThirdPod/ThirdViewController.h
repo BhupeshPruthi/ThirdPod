@@ -10,4 +10,5 @@
 
 @interface ThirdViewController : UIViewController
 -(NSString *)returnThird;
+-(NSString *)AddTwoString: (NSString *)FirstString andSecondString:(NSString *)second;
 @end

@@ -26,6 +26,9 @@
 -(NSString *)returnThird{
     return @"Bhupesh";
 }
+-(NSString *)AddTwoString: (NSString *)FirstString andSecondString:(NSString *)second{
+    return [NSString stringWithFormat:@"%@ with %@",FirstString,second];
+}
 /*
 #pragma mark - Navigation
 
